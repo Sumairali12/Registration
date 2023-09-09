@@ -1,0 +1,43 @@
+body{
+    background-image: url(image\ of\ laptop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+#main {
+    
+    background-color:white;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+form{
+    padding-left:  60px;
+}
+.user{
+    border: 1px solid black;
+    width: 300px;
+    height: 35px;
+}
+
+input[type=text],[type=password]{
+    width: 200px;
+    height: 30px;
+    
+    
+}
+button{
+    width: 300px;
+    height: 35px;
+    background-color: darkslategray;
+    color: white;
+}
